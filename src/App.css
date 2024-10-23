@@ -1,0 +1,13 @@
+@keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(60deg);
+    }
+  }
+  
+  .girar {
+    animation: girar 0.5s ease-in-out;
+  }
+  

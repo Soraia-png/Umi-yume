@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Levi Windows';
+    src: url('./assets/fonts/Windows Regular.ttf') format('truetype');
+  }
+  
+@layer base {
+  * {
+    cursor: url('./assets/Imagens/cursorbutao.png'), pointer;
+    cursor: url('./assets/Imagens/cursorCerto.png'), default;
+  }
+}
