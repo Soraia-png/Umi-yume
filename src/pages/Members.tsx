@@ -63,7 +63,7 @@ const personagens = [
       "redeLive": Twitch,
       "youtubelink": "https://www.twitch.tv/asterhono",
       "youtubename": "AsterHono",
-      "tiktoklink": "https://www.tiktok.com/@asterhono",
+      "tiktoklink": "https://www.youtube.com/@AsterHono/featured",
       "tiktokname": "AsterHono",
       "twitterlink": "https://x.com/AsterHono",
       "twittername": "AsterHono",
