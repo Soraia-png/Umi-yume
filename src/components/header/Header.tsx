@@ -10,9 +10,9 @@ function Header() {
         </div>
 
         <div className='font-levi flex space-x-36 justify-center w-full'>
-          <button className="px-8 py-3 min-h-[px-60] font-bold text-white bg-[url('./assets/Imagens/Botao_primario.png')] w-36 text-xl hover:scale-105 focus:grayscale duration-200 ease-out delay-75">
-            Em breve...
-          </button>
+          <Link to="/" className="flex px-8 py-3 font-bold text-white bg-[url('./assets/Imagens/Botao_primario.png')] w-36 text-xl hover:scale-105 focus:grayscale duration-200 ease-out delay-75 items-center justify-center">
+            <p>Home</p>
+          </Link>
 
           <Link to="/Members" className="flex px-8 py-3 font-bold text-white bg-[url('./assets/Imagens/Botao_primario.png')] w-36 text-xl hover:scale-105 focus:grayscale duration-200 ease-out delay-75 items-center justify-center">
             <p>Membros</p>

@@ -3,6 +3,7 @@ import Tiktok from '../assets/Imagens/Tiktok-icon.png'
 import Twitter from '../assets/Imagens/x-logo.png'
 import Instagram from '../assets/Imagens/Instagram-logo.png'
 import Discord from '../assets/Imagens/pngwing.com.png'
+import NewStage from '../assets/Imagens/redondo_2.png'
 
 
 function Contato() {
@@ -128,7 +129,7 @@ function Contato() {
                         <div id="Descrição" className="flex h-32 flex-row ">
                             <a href= 'https://discord.gg/mhC4BaDaq3' target="_blank" rel="noopener noreferrer">
                                 <button id="Icone" className="hover:scale-105 duration-300">
-                                    <img src={Discord} alt="Instagram" className="max-h-32 max-w-32"/>
+                                    <img src={NewStage} alt="Instagram" className="max-h-32 max-w-32"/>
                                 </button>
                             </a>
                             <div id="Imagem" className="flex text-white text-2xl p-3">

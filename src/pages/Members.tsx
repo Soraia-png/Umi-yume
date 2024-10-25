@@ -1,31 +1,37 @@
-import Televisao from '../assets/Imagens/tv.png'
-import Transição from '../assets/Imagens/18141e113a852118e42d847482fba5f3.gif'
-import Som from "../assets/Imagens/Auto-falante.png"
-import RuidoBranco from "../assets/Sons/Ruido branco.wav"
-import Botaoverde from "../assets/Imagens/Botao_verde.png"
-import Botaoroxo from "../assets/Imagens/Botao_roxo.png"
-import Fechar from "../assets/Imagens/close.png"
-import Minimizar from "../assets/Imagens/window-minimize.png"
-import Maximizar from "../assets/Imagens/maximaze.png"
-import SomDesligado from '../assets/Imagens/mutado.png'
-import Youtube from '../assets/Imagens/youtube-logo.png'
-import Twitch from '../assets/Imagens/icon twitch.png'
-import Tiktok from '../assets/Imagens/Tiktok-icon.png'
-import Twitter from '../assets/Imagens/x-logo.png'
-import ArielSplash from '../assets/Imagens/Membros/Ariel_splashArt.png'
-import ArielFig from '../assets/Imagens/Membros/Nyaaaaaaaa.png'
-import AsterSplash from '../assets/Imagens/Membros/Aster_Splash_1.png'
-import AsterFig from '../assets/Imagens/Membros/Aster-icon.webp'
-import AtlasSplash from '../assets/Imagens/Membros/Atlas_Oceanico_splash.png'
-import AtlasFig from '../assets/Imagens/Membros/ANALISE_qualidade_alta.png'
-import SoraSplash from '../assets/Imagens/Membros/Sora_Aron_Splash.png'
-import SoraFig from '../assets/Imagens/Membros/Tome_Amor_da_Robo.png'
-import SoraAudio from '../assets/Sons/Sora-audio.wav'
-import YutaSplash from '../assets/Imagens/Membros/Yuta_Peach_Splash.png'
-import YutaFig from '../assets/Imagens/Membros/Nyan.png'
-import ZoeSplash from '../assets/Imagens/Membros/Zoe_Lee_Splash.png'
-import ZoeFig from '../assets/Imagens/Membros/Hehehe_sem_zoom.png'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react';
+import Televisao from '../assets/Imagens/tv.png';
+import Transição from '../assets/Imagens/18141e113a852118e42d847482fba5f3.gif';
+import Som from "../assets/Imagens/Auto-falante.png";
+import RuidoBranco from "../assets/Sons/Ruido branco.wav";
+import Botaoverde from "../assets/Imagens/Botao_verde.png";
+import Botaoroxo from "../assets/Imagens/Botao_roxo.png";
+import Fechar from "../assets/Imagens/close.png";
+import Minimizar from "../assets/Imagens/window-minimize.png";
+import Maximizar from "../assets/Imagens/maximaze.png";
+import SomDesligado from '../assets/Imagens/mutado.png';
+import Youtube from '../assets/Imagens/youtube-logo.png';
+import Twitch from '../assets/Imagens/icon twitch.png';
+import Tiktok from '../assets/Imagens/Tiktok-icon.png';
+import Twitter from '../assets/Imagens/x-logo.png';
+import ArielSplash from '../assets/Imagens/Membros/Ariel_splashArt.png';
+import ArielFig from '../assets/Imagens/Membros/Nyaaaaaaaa.png';
+import ArielAudio from '../assets/Sons/Arielsexo.wav'
+import AsterSplash from '../assets/Imagens/Membros/Aster_Splash_1.png';
+import AsterFig from '../assets/Imagens/Membros/Aster-icon.webp';
+import AsterAudio from '../assets/Sons/Aster _Caro Demais_.wav'
+import AtlasSplash from '../assets/Imagens/Membros/Atlas_Oceanico_splash.png';
+import AtlasFig from '../assets/Imagens/Membros/ANALISE_qualidade_alta.png';
+import AtlasAudio from '../assets/Sons/audiomtfoda.wav'
+import SoraSplash from '../assets/Imagens/Membros/Sora_Aron_Splash.png';
+import SoraFig from '../assets/Imagens/Membros/Tome_Amor_da_Robo.png';
+import SoraAudio from '../assets/Sons/Sora-audio.wav';
+import YutaSplash from '../assets/Imagens/Membros/Yuta_Peach_Splash.png';
+import YutaFig from '../assets/Imagens/Membros/Nyan.png';
+import YutaAudio from '../assets/Sons/yuta gay.wav'
+import ZoeSplash from '../assets/Imagens/Membros/Zoe_Lee_Splash.png';
+import ZoeFig from '../assets/Imagens/Membros/Hehehe_sem_zoom.png';
+import ZoeAudio from '../assets/Sons/Zoe Preferia que não tivesse vindo.wav'
+import ZaboAudio from '../assets/Sons/Zabo.wav'
 
 const personagens = [
     {
@@ -38,7 +44,7 @@ const personagens = [
       "frase": "Depende de quanto me pagar...",
       "foto": ArielSplash,
       "figurinha": ArielFig,
-      "audio": "",
+      "audio": ArielAudio,
       "background-color-url": "#cc22db",
       "redeLive": Twitch,
       "youtubelink": "https://www.twitch.tv/ariel_rias",
@@ -53,12 +59,12 @@ const personagens = [
       "altura": "Altura: 1,85",
       "aniversario": "Aniversário 04/11",
       "MBTI": "ESFJ",
-      "descriçaobreve": "Um riquinho daddy issues",
+      "descriçaobreve": "Um riquinho com daddy issues",
       "descrição": "Nada menos que a elite, tenha a satisfação de ter a burguesia te servindo invéz do contrário.",
       "frase": "O que você quer dizer com caro demais?",
       "foto": AsterSplash,
       "figurinha": AsterFig,
-      "audio": "",
+      "audio": AsterAudio,
       "background-color-url": "#ff4e39",
       "redeLive": Twitch,
       "youtubelink": "https://www.twitch.tv/asterhono",
@@ -78,7 +84,7 @@ const personagens = [
         "frase": "Agradeço as palmas",
         "foto": AtlasSplash,
         "figurinha": AtlasFig,
-        "audio": "",
+        "audio": AtlasAudio,
         "background-color-url": "#1d3a66",
         "redeLive": Youtube,
         "youtubelink": "https://www.youtube.com/channel/UC1n2gmbLW7sy7D0sGUiqwvA",
@@ -115,10 +121,10 @@ const personagens = [
         "MBTI": "ENFP",
         "descriçaobreve": "Uma gata interdimensional",
         "descrição": "Ela precisa mesmo abrir um daqueles portais com tanto brilho? Não pode buscar meu café andando pra variar?",
-        "frase": "Porque você demorou tanto?",
+        "frase": "Por que você demorou tanto?",
         "foto": YutaSplash,
         "figurinha": YutaFig,
-        "audio": "",
+        "audio": YutaAudio,
         "background-color-url": "#a60f28",
         "redeLive": Twitch,
         "youtubelink": "https://www.twitch.tv/yutapeach",
@@ -138,7 +144,7 @@ const personagens = [
         "frase": "Eu preferia que não tivesse vindo.",
         "foto": ZoeSplash,
         "figurinha": ZoeFig,
-        "audio": SoraAudio,
+        "audio": ZoeAudio,
         "background-color-url": "#3f4069",
         "redeLive": Twitch,
         "youtubelink": "https://www.twitch.tv/leezoeikk",
@@ -152,69 +158,71 @@ const personagens = [
   ]
 
 function Members() {
+
+    const [isTvLoaded, setIsTvLoaded] = useState(false);
     const [personagemAtivo, setPersonagemAtivo] = useState(personagens[0]);
-    const buttonRef = useRef<HTMLButtonElement | null>(null);  // Referência para o botão
-    const [somAtivo, setSomAtivo] = useState(true); // Estado da Imagem do Botão de Som
-    const tvRef = useRef<HTMLImageElement | null>(null); // Define o tipo como HTMLImageElement
+    const buttonRef = useRef<HTMLButtonElement | null>(null);
+    const [somAtivo, setSomAtivo] = useState(true);
+    const tvRef = useRef<HTMLImageElement | null>(null);
     const [tvHeight, setTvHeight] = useState(0);
-    // const [girando, setGirando] = useState(false);
     const [angulo, setAngulo] = useState(0);
-    const [transicaoAtiva, setTransicaoAtiva] = useState(false); // Estado para controlar transição
-    const audioRef = useRef<HTMLAudioElement | null>(null); // Referência para o som
+    const [transicaoAtiva, setTransicaoAtiva] = useState(false);
+    const audioRef = useRef<HTMLAudioElement | null>(null);
     const transicaoAudioRef = useRef<HTMLAudioElement | null>(null);
+
+    // Monitorar carregamento da imagem da TV
+    useEffect(() => {
+        const tvImage = new Image();
+        tvImage.src = Televisao;
+        tvImage.onload = () => {
+            setIsTvLoaded(true);  // Define como carregado quando a imagem é carregada
+        };
+    }, []);
+
+    useEffect(() => {
+        if (tvRef.current && isTvLoaded) {
+            setTvHeight(tvRef.current.offsetHeight);
+        }
+    }, [isTvLoaded]);
 
     const toggleSom = () => {
         setSomAtivo(!somAtivo);
     };
 
-    // Função para alternar personagem
     const mudarPersonagem = () => {
-        setTransicaoAtiva(true); // Ativa o GIF de transição
-
-        // reinicia o audio dos personagens
+        setTransicaoAtiva(true);
         if (audioRef.current) {
-            audioRef.current.pause();  // Pausa o som atual antes de trocar
-            audioRef.current.currentTime = 0; // Reseta o tempo do áudio
+            audioRef.current.pause();
+            audioRef.current.currentTime = 0;
         }
-        // começa o audio da transição
-        if (transicaoAudioRef.current) {
+        if (transicaoAudioRef.current && somAtivo) {
             transicaoAudioRef.current.volume = 0.02;
-            transicaoAudioRef.current.play();  // Toca o áudio da transição
+            transicaoAudioRef.current.play();
         }
-        // setGirando(true); // Ativa a rotação
+
         setAngulo((prevAngulo) => prevAngulo + 60);
-
+    
+        // Ajustar a transição do personagem após 500ms
         setTimeout(() => {
-            // setGirando(false); // Desativa a rotação
-            setTransicaoAtiva(false); // Desativa o GIF de transição
-
+            setTransicaoAtiva(false);
+    
             if (transicaoAudioRef.current) {
-                transicaoAudioRef.current.pause(); // Pausa o som da transição quando a animação termina
-                transicaoAudioRef.current.currentTime = 0; // Reseta o tempo do som de transição
+                transicaoAudioRef.current.pause();
+                transicaoAudioRef.current.currentTime = 0;
             }
-            // Muda para o próximo personagem
-            
-        }, 500); // Tempo de espera para começar a transição
-       
-        setPersonagemAtivo((prevState) => {
-         
-            const proximoIndex = (personagens.indexOf(prevState) + 1) % personagens.length;
-            const novoPersonagem = personagens[proximoIndex];
-
-            // Aqui você deve garantir que o áudio do novo personagem seja definido e tocado
-            if (audioRef.current && novoPersonagem.audio && somAtivo) {
-                audioRef.current.src = novoPersonagem.audio; // Define o novo caminho do áudio
-                audioRef.current.play(); // Toca o áudio do novo personagem
-            }
-
-            return novoPersonagem;
-        });
-        
-        // setTimeout(() => {
-
-        // }, 500);
-
+            setPersonagemAtivo((prevState) => {
+                const proximoIndex = (personagens.indexOf(prevState) + 1) % personagens.length;
+                const novoPersonagem = personagens[proximoIndex];
+    
+                if (audioRef.current && novoPersonagem.audio && somAtivo) {
+                    audioRef.current.src = novoPersonagem.audio;
+                    audioRef.current.play();
+                }
+                return novoPersonagem;
+            });
+        }, 500);
     };
+    
     // Ajusta a altura da div com base na altura da imagem da TV
     useEffect(() => {
         if (tvRef.current) {
@@ -226,9 +234,10 @@ function Members() {
     <>
         <div id="Matriz" className= "w-full h-4/6 flex px-5 cursor-custom" >
 
-        <audio ref={transicaoAudioRef} src={RuidoBranco} /> {/* Definir o áudio da transição */}
-        <audio ref={audioRef} src={personagemAtivo.audio}/>
+        <audio ref={transicaoAudioRef} src={RuidoBranco} preload="auto" />
+        <audio ref={audioRef} preload="auto" />
 
+            {isTvLoaded && (  // Só renderiza após a TV carregar
             <div id="tv" 
                 className= "flex w-3/5 bg-contain bg-center relative" 
                 style={{ height: tvHeight }}>
@@ -267,6 +276,8 @@ function Members() {
 
                 </div>
             </div>
+            )}
+
             <div id='Janela' className='h-2/5 pl-10 w-1/3'>
                 <div id="CinzaJanela" className= "space-y-5 border-4 font-levi flex flex-col bg-gray-400 object-contain p-3 border-t-gray-300 border-l-gray-300 border-r-gray-500 border-b-gray-500">
                     <div id="Cabeçario" className= "bg-[#cc22db] w-full flex drop-shadow-md justify-between items-center" style={{ backgroundColor: personagemAtivo['background-color-url'] }}>

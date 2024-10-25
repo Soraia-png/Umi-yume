@@ -1,14 +1,33 @@
+
 import Todos from '../assets/Imagens/Membros/Quebra_de_bracokkkk.png'
+import todes from '../assets/Imagens/Membros/Tdomundo.png'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 function Home() {
-  return (
-    <>
-      <div className=' flex min-h-96 min-w-96'>
-        <img src={Todos} alt='Integrante' className='min-h-96 min-w-96'/>
-      </div> 
-      
-    </>
-  )
-}
-
-export default Home
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+    };
+  
+    return (
+      <div>
+        <Slider {...settings}>
+          <div>
+            <img src={Todos} alt="Primeira imagem" />
+          </div>
+          <div>
+            <img src={todes} alt="Segunda imagem" />
+          </div>
+        </Slider>
+      </div>
+    );
+  }
+  
+  export default Home;
