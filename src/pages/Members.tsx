@@ -31,7 +31,6 @@ import YutaAudio from '../assets/Sons/yuta gay.wav'
 import ZoeSplash from '../assets/Imagens/Membros/Zoe_Lee_Splash.png';
 import ZoeFig from '../assets/Imagens/Membros/Hehehe_sem_zoom.png';
 import ZoeAudio from '../assets/Sons/Zoe Preferia que não tivesse vindo.wav'
-import ZaboAudio from '../assets/Sons/Zabo.wav'
 
 const personagens = [
     {
