@@ -23,7 +23,7 @@ function Home() {
             <img src={Todos} alt="Primeira imagem" />
           </div>
           <div>
-            <img src={todes} alt="Segunda imagem" />
+            <img src={todes} alt="Segunda imagem" className='min-h-full min-w-full'/>
           </div>
         </Slider>
       </div>
