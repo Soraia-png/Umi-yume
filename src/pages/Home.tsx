@@ -1,6 +1,6 @@
 
 import Todos from '../assets/Imagens/Membros/Quebra_de_bracokkkk.png'
-import todes from '../assets/Imagens/Membros/Tdomundo.png'
+import todes from '../assets/Imagens/Membros/macacoaaa.png'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";

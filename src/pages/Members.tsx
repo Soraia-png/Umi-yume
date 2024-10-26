@@ -15,10 +15,10 @@ import Tiktok from '../assets/Imagens/Tiktok-icon.png';
 import Twitter from '../assets/Imagens/x-logo.png';
 import ArielSplash from '../assets/Imagens/Membros/Ariel_splashArt.png';
 import ArielFig from '../assets/Imagens/Membros/Nyaaaaaaaa.png';
-import ArielAudio from '../assets/Sons/Arielsexo.wav'
+import ArielAudio from '../assets/Sons/Audio krl.wav'
 import AsterSplash from '../assets/Imagens/Membros/Aster_Splash_1.png';
 import AsterFig from '../assets/Imagens/Membros/Aster-icon.webp';
-import AsterAudio from '../assets/Sons/Aster _Caro Demais_.wav'
+import AsterAudio from '../assets/Sons/Caro demais.wav';
 import AtlasSplash from '../assets/Imagens/Membros/Atlas_Oceanico_splash.png';
 import AtlasFig from '../assets/Imagens/Membros/ANALISE_qualidade_alta.png';
 import AtlasAudio from '../assets/Sons/audiomtfoda.wav'
@@ -30,7 +30,7 @@ import YutaFig from '../assets/Imagens/Membros/Nyan.png';
 import YutaAudio from '../assets/Sons/yuta gay.wav'
 import ZoeSplash from '../assets/Imagens/Membros/Zoe_Lee_Splash.png';
 import ZoeFig from '../assets/Imagens/Membros/Hehehe_sem_zoom.png';
-import ZoeAudio from '../assets/Sons/Zoe Preferia que não tivesse vindo.wav'
+import ZoeAudio from '../assets/Sons/Preferi que não tivesse vindo.wav'
 
 const personagens = [
     {
@@ -40,7 +40,7 @@ const personagens = [
       "MBTI": "ENFP",
       "descriçaobreve": "Ex garoto de programa",
       "descrição": "Um raposo realmente gentil, veja como ele pode te divertir essa noite, entregando café quero dizer.",
-      "frase": "Depende de quanto me pagar...",
+      "frase": "Hm... Depende de quanto vai me pagar...",
       "foto": ArielSplash,
       "figurinha": ArielFig,
       "audio": ArielAudio,
@@ -140,7 +140,7 @@ const personagens = [
         "MBTI": "ISTJ",
         "descriçaobreve": "Meio tubarão e meio cruel",
         "descrição": "Veja nos seus olhos seu passado de mafiosa, ou será que é presente?",
-        "frase": "Eu preferia que não tivesse vindo.",
+        "frase": "Eu preferia você não tivesse vindo.",
         "foto": ZoeSplash,
         "figurinha": ZoeFig,
         "audio": ZoeAudio,
