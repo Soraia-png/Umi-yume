@@ -4,6 +4,7 @@ import todes from '../assets/Imagens/Membros/macacoaaa.png'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Hallowen from "../assets/Imagens/Membros/Halloween_das_maidss.png"
 
 function Home() {
     const settings = {
@@ -24,6 +25,9 @@ function Home() {
           </div>
           <div>
             <img src={todes} alt="Segunda imagem" className='min-h-full min-w-full'/>
+          </div>
+          <div>
+            <img src={Hallowen} alt="terceira imagem"className='min-h-full min-w-full'/>
           </div>
         </Slider>
       </div>
