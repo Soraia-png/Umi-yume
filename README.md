@@ -1,3 +1,7 @@
+Achei mais facil colocar o site q estava fazendo fora das aulas, pra exemplificar que entendi o conteudo, fiz esse site para a agencia que eu e uns amigos estamos montando ele está hospedado em:
+https://umi-yume.onrender.com/ 
+se quiser olhar melhor ele funcionando
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
